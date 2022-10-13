@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>create panel theming</title>
+        <style>
+            .panel {
+                border: 1px solid #bbb;
+                border-radius: 4px;
+                margin-left: 70px;
+                margin-right: 70px;
+                margin-top: 40px;
+            }
+
+            .panel-primary {
+                border-color: navy;
+            }
+            
+            .panel-secondary {
+                border-color: green;
+            }
+
+            .panel-error{
+                border-color: crimson;
+            }
+
+            .panel-heading,
+            .panel-body {
+                padding: 1em;
+                font-size: 20px;
+            }
+            
+            .panel-heading {
+                background-color: #ddd;
+                border-top-left-radius: 3px;
+                border-top-right-radius: 3px;
+            }
+
+            .panel-title {
+                margin: 0;
+            }
+
+            .panel-primary .panel-heading {
+                background-color: navy;
+                color: white;
+            }
+            
+            .panel-secondary .panel-heading {
+                background-color: olive;
+                color: white;
+            }
+
+            .panel-error .panel-heading{
+                background-color: crimson;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h2 class="panel-title">What is CSS?</h2>
+            </div>
+            <div class="panel-body">CSS is a language for styling web pages.It stands for Cascading StyleSheet</div>
+        </div>
+        <div class="panel panel-secondary">
+            <div class="panel-heading"> 
+                <h2 class="panel-title">What is CSS?</h2>
+            </div>
+            <div class="panel-body">CSS is a language for styling web pages.It stands for Cascading StyleSheet</div>
+        </div>
+        <div class="panel panel-error">
+            <div class="panel-heading">
+                <h2 class="panel-title">What is CSS?</h2>
+            </div>
+            <div class="panel-body">CSS is a language for styling web pages.It stands for Cascading StyleSheet</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            create theming button
+        </title>
+        <style>
+            @import './global.css';
+            .theme-primary{
+                background-color: var(--primary);
+                color: white;
+                font-size: 24px;
+                border-radius: 6px;
+                padding: 10px;
+                
+            }
+            .theme-secondary{
+                background-color: olive;
+                color: white;
+                font-size: 24px;
+                border-radius: 6px;
+                padding: 10px;
+            }
+            .theme-error{
+                background-color: crimson;
+                color: white;
+                font-size: 24px;
+                border-radius: 6px;
+                padding: 10px;
+            }
+
+            body{
+                padding-top: 40px;
+                margin-left: 40px;
+                
+            
+            }
+        </style>
+    </head>
+    <body>
+        <button class="theme-primary">Buy Now!</button>
+        <button class="theme-secondary">Ok! Got it! Great!</button> 
+        <button class="theme-error">Delete</button> 
+        <button class="theme-primary">Google search</button>
+    </body>
+</html>

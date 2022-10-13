@@ -1,0 +1,8 @@
+@import './global.css';
+.main{
+    width:100%;
+    height:100vh;
+    background: #020230;
+    display:flex;
+    background: var(--primary);
+}
